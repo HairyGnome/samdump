@@ -101,7 +101,7 @@ int main()
     }
 
     SetBackupPrivilege();
-    std::cout << "[+] SeBackupPrivilege has been successfully activated.\n";
+    std::cout << "[+] SetBackupPrivilege has been successfully activated.\n";
 
     dump_reg();
     std::cout << "[+] Sam, System and Security dumped to C:\\ProgramData\\\n";
